@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Student Registration Form</h2>
+        <form>
+            <table>
+                <tr>
+                    <td><label for="name">Student Name:</label></td>
+                    <td><input type="text" id="name" name="name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Date of Birth:</label></td>
+                    <td><input type="date" id="dob" name="dob" required></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td>
+                        <select id="gender" name="gender" required>
+                            <option value="">Select Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="address1">Street Address 1:</label></td>
+                    <td><input type="text" id="address1" name="address1" required></td>
+                </tr>
+                <tr>
+                    <td><label for="address2">Street Address 2:</label></td>
+                    <td><input type="text" id="address2" name="address2"></td>
+                </tr>
+                <tr>
+                    <td><label for="city">City:</label></td>
+                    <td><input type="text" id="city" name="city" required></td>
+                </tr>
+                <tr>
+                    <td><label for="state">State/Province:</label></td>
+                    <td><input type="text" id="state" name="state" required></td>
+                </tr>
+                <tr>
+                    <td><label for="zipcode">Postal Zipcode:</label></td>
+                    <td><input type="text" id="zipcode" name="zipcode" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Student Email:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="mobile">Mobile Number:</label></td>
+                    <td><input type="tel" id="mobile" name="mobile" required></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone Number:</label></td>
+                    <td><input type="tel" id="phone" name="phone"></td>
+                </tr>
+                <tr>
+                    <td><label for="work">Work Number:</label></td>
+                    <td><input type="tel" id="work" name="work"></td>
+                </tr>
+                <tr>
+                    <td><label for="company">Company:</label></td>
+                    <td><input type="text" id="company" name="company"></td>
+                </tr>
+                <tr>
+                    <td><label for="courses">Courses:</label></td>
+                    <td>
+                        <select id="courses" name="courses" required>
+                            <option value="">Select Course</option>
+                            <option value="BSCS">BSCS</option>
+                            <option value="BSDFCS">BSDFCS</option>
+                            <option value="BSIT">BSIT</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="comments">Additional Comments:</label></td>
+                    <td><textarea id="comments" name="comments" rows="4" cols="50"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div class="form-buttons">
+                            <button type="submit">Submit Application</button>
+                            <button type="reset">Clear Fields</button>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
